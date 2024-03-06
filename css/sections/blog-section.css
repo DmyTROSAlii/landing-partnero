@@ -1,0 +1,28 @@
+.blog-section {
+	padding: 133px 0;
+}
+
+.blog-section .list-blog .item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog-section .list-blog .item .content {
+	max-width: 760px;
+}
+
+.blog-section .list-blog .item .content .text {
+	font-size: 30px;
+	line-height: 1.5;
+}
+
+.blog-section .list-blog .item .content .name {
+	font-size: 20px;
+	margin-top: 27px;
+	line-height: 1.8;
+}
+
+.blog-section .list-blog .item .content .position {
+	color: #71717A;
+}

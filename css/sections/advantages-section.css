@@ -1,0 +1,9 @@
+.advantages-section {
+	padding: 87px 0 37px;
+}
+
+.advantages-section .list-advantages {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}

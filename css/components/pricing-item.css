@@ -1,0 +1,104 @@
+.pricing-plans .item {
+	display: flex;
+	max-width: 288px;
+	margin-top: 69px;
+	flex-direction: column;
+	padding: 64px 0 116px;
+	transition: 1.5s;
+}
+
+.pricing-plans .item:hover {
+	max-width: 400px;
+	border: none;
+	border-top-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+	background-color: #F1F5F9;
+	padding: 64px 56px 116px;
+}
+
+.pricing-plans .item .price {
+	margin-top: 12px;
+	color: #7A8586;
+}
+
+.pricing-plans .item .price .value {
+	color: #000;
+	font-size: 48px;
+}
+
+.pricing-plans .item .button {
+	margin-top: 12px;
+	padding: 15px 100px;
+}
+
+.pricing-plans .item .options {
+	margin-top: 21px;
+}
+
+.pricing-plans .item .options li {
+	padding: 21px 0 19px;
+}
+
+.pricing-plans .item .options li:first-child::before {
+	content: url('/img/svg/layers.svg');
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.pricing-plans .item .options li:last-child::before {
+	content: url('/img/svg/person.svg');
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.pricing-plans .item .options li:not(:last-child) {
+	border-bottom: 1px solid #E6E7E7;
+}
+
+.pricing-plans .item .desc {
+	margin-top: 20px;
+}
+
+.pricing-plans .item .desc .incl {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #7A8586;
+}
+
+.pricing-plans .item .desc .keys-incl {
+	margin-top: 20px;
+}
+
+.pricing-plans .item .desc .keys-incl .key {
+	font-size: 16px;
+	padding: 21px 0 17px;
+}
+
+.pricing-plans .item .desc .keys-incl .key::before {
+	content: url('/img/svg/okay.svg');
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.pricing-plans .item .desc .keys-incl .key:not(:last-child) {
+	border-bottom: 1px solid #E6E7E7;
+}
+
+.pricing-section .all-plans {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-top: 55px;
+	text-align: center;
+	transition: 0.5s;
+}
+
+.pricing-section .all-plans::after {
+	content: url('/img/svg/arrow.svg');
+	margin-left: 7px;
+	vertical-align: middle;
+}
+
+.pricing-section .all-plans:hover {
+	scale: 1.2;
+}

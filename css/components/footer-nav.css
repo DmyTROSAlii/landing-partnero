@@ -1,0 +1,19 @@
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-nav .title {
+	font-size: 12px;
+	color: #A1A1AA;
+	text-transform: uppercase;
+}
+
+.footer-nav .list .item {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.footer-nav .list .item:hover {
+	scale: 1.1;
+}

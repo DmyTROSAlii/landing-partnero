@@ -1,0 +1,16 @@
+.promo-section {
+	padding: 81px 0 150px;
+}
+
+.promo-section .content {
+	border-top-left-radius: 140px;
+	border-bottom-right-radius: 140px;
+	background-color: #FFE3FB;
+	padding: 66px 212px 72px;
+	text-align: center;
+}
+
+.promo-section .content .button {
+	margin-top: 46px;
+	padding: 15px 37px;
+}

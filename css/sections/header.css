@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	align-items: center;
+	padding: 40px 0;
+}
+
+.header .join-account {
+	display: flex;
+	width: 210px;
+	justify-content: space-between;
+}
+
+.header .join-account .button:hover {
+	border-radius: 50px;
+}
