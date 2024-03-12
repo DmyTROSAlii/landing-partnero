@@ -26,3 +26,18 @@
 	height: 600px;
 	width: 504px;
 }
+
+@media screen and (max-width: 768px) {
+	.hero-section .right-image {
+		display: none;
+	}
+
+	.hero-section .content {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.hero-section .content .subtitle {
+		margin: 30px auto;
+	}
+}

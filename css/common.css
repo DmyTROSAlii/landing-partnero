@@ -5,6 +5,10 @@ body {
 	color: #021412;
 }
 
+button {
+	cursor: pointer;
+}
+
 /* body.disable-scroll {
 	overflow: hidden;
 } */

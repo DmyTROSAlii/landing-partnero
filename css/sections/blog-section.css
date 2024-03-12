@@ -17,6 +17,12 @@
 	line-height: 1.5;
 }
 
+.blog-section .list-blog .item .content .text .continue-text {
+	font-weight: bold;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
 .blog-section .list-blog .item .content .name {
 	font-size: 20px;
 	margin-top: 27px;
@@ -25,4 +31,15 @@
 
 .blog-section .list-blog .item .content .position {
 	color: #71717A;
+}
+
+@media screen and (max-width: 1024px) {
+	.blog-section .list-blog .item .photo {
+		flex-shrink: 0;
+		margin-right: 50px;
+	}
+
+	.blog-section .list-blog .item .content .text {
+		font-size: 24px;
+	}
 }

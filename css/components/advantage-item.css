@@ -37,3 +37,25 @@
 	margin-top: 29px;
 	padding: 15px 37px;
 }
+
+@media screen and (max-width: 1200px) {
+	.list-advantages .item {
+		padding: 60px;
+	}
+
+	.list-advantages .item > * {
+		max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.list-advantages .item{
+		max-width: 100%;
+		padding: 100px;
+	}
+
+	.list-advantages .item > * {
+		max-width: 100%;
+		font-size: 30px;
+	}
+}

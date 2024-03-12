@@ -101,4 +101,12 @@
 
 .pricing-section .all-plans:hover {
 	scale: 1.2;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+	.pricing-plans .item {
+		min-width: 350px;
+		flex-shrink: 0;
+	}
 }
