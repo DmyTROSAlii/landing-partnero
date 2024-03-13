@@ -28,3 +28,13 @@
 		margin-top: 24px;
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.promo-section .content {
+		padding: 40px 60px;
+	}
+
+	.promo-section .content .title {
+		font-size: 18px;
+	}
+}

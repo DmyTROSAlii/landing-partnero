@@ -121,3 +121,24 @@
 		min-width: 500px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.pricing-plans .item {
+		min-width: none;
+		max-width: 423px;
+		padding: 26px 18px 48px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.pricing-plans .item {
+		min-width: 280px;
+		max-width: 310px;
+		transition: 1s;
+	}
+
+	.pricing-plans .item:hover {
+		max-width: 320px;
+		padding: 20px 10px 40px;
+	}
+}

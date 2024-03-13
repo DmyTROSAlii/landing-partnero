@@ -49,3 +49,31 @@
 		font-size: 14px;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.footer .top {
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+
+	.footer .top > * {
+		margin-top: 30px;
+	}
+
+	.footer .top .main-columm {
+		width: calc(100% - 20px);
+	}
+
+	.footer .top > *:not(.main-columm) {
+		width: calc(100% / 3 - 20px);
+	}
+
+	.footer .bottom {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer .bottom > *:not(:first-child) {
+		margin-top: 20px;
+	}
+}

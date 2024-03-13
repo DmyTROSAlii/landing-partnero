@@ -51,11 +51,21 @@
 @media screen and (max-width: 1000px) {
 	.list-advantages .item{
 		max-width: 100%;
-		padding: 100px;
+		padding: 60px;
 	}
 
 	.list-advantages .item > * {
 		max-width: 100%;
+		font-size: 24px;
+	}
+
+	.list-advantages .item .name {
 		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.list-advantages .item {
+		padding: 60px 20px;
 	}
 }

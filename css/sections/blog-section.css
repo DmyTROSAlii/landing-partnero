@@ -43,3 +43,13 @@
 		font-size: 24px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.blog-section .list-blog .item {
+		flex-direction: column;
+	}
+
+	.blog-section .list-blog .item .content {
+		margin-top: 40px;
+	}
+}

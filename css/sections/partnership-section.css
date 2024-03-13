@@ -61,3 +61,37 @@
 		margin: 0 auto;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.partnership-section .right-content {
+		max-width: 400px;
+	}
+
+	.partnership-section .right-content .type-partnership .item {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.partnership-section .right-content .type-partnership .item .name {
+		margin: 0 auto;
+		font-size: 24px;
+		max-width: 400px;
+	}
+
+	.partnership-section .right-content .type-partnership .item .desc {
+		margin: 30px auto 0;
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.partnership-section .right-content {
+		max-width: 350px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.partnership-section .right-content {
+		max-width: 300px;
+	}
+}

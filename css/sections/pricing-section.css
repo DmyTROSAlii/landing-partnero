@@ -10,6 +10,7 @@
 	font-size: 20px;
 	max-width: 765px;
 	margin: 28px auto 0;
+	text-align: center;
 }
 
 .pricing-section .pricing-plans {
@@ -19,11 +20,11 @@
 }
 
 @media screen and (max-width: 840px) { 
-	.pricing-section .pricing-plans {
-		justify-content: center;
+	.pricing-section .title {
+		font-size: 36px;
 	}
 
-	.pricing-section .subtitle {
-		text-align: center;
+	.pricing-section .pricing-plans {
+		justify-content: center;
 	}
 }
