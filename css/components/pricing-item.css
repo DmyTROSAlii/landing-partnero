@@ -108,5 +108,16 @@
 	.pricing-plans .item {
 		min-width: 350px;
 		flex-shrink: 0;
+		border: none;
+		border-top-right-radius: 80px;
+		border-bottom-left-radius: 80px;
+		background-color: #F1F5F9;
+		padding: 42px 38px 94px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.pricing-plans .item {
+		min-width: 500px;
 	}
 }

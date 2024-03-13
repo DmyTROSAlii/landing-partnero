@@ -46,3 +46,18 @@
 	max-width: 230px;
 	line-height: 1.5;
 }
+
+@media screen and (max-width: 840px) { 
+	.partnership-section {
+		flex-direction: column;
+	}
+
+	.partnership-section .left-content {
+		margin: 0 auto 80px;
+		text-align: center;
+	}
+
+	.partnership-section .right-content {
+		margin: 0 auto;
+	}
+}
