@@ -28,6 +28,10 @@
 }
 
 @media screen and (max-width: 768px) {
+	.hero-section {
+		margin: 30px auto;
+	}
+
 	.hero-section .right-image {
 		display: none;
 	}

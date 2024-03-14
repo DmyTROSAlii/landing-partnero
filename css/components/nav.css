@@ -18,8 +18,21 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 	.nav {
-		margin-left: 56px;
+		margin-left: 200px;
 	}
 }
+
+@media screen and (max-width: 1128px) {
+	.nav {
+		margin-left: 150px;
+	}
+}
+
+@media screen and (max-width: 1078px) {
+	.nav {
+		margin-left: 100px;
+	}
+}
+

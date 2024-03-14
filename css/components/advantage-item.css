@@ -56,11 +56,15 @@
 
 	.list-advantages .item > * {
 		max-width: 100%;
-		font-size: 24px;
+		font-size: 18px;
 	}
 
 	.list-advantages .item .name {
-		font-size: 30px;
+		font-size: 20px;
+	}
+
+	.list-advantages .item .button {
+		font-size: 14px;
 	}
 }
 
