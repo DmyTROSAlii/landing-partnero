@@ -102,8 +102,8 @@ js/
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/partnero-landing.git
-   cd partnero-landing
+   git clone https://github.com/DmyTROSAlii/landing-partnero.git
+   cd landing-partnero
    ```
 
 2. **No build step required.**  
