@@ -15,7 +15,6 @@ A modern, responsive single-page landing website for **Partnero** — a platform
 - [Usage](#-usage)
 - [Customization](#-customization)
 - [Examples](#-examples)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ---
@@ -145,13 +144,6 @@ js/
   1. Create a new CSS file in `css/sections/`.
   2. Import it in `css/sections/main.css`.
   3. Add the HTML markup in `index.html`.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-Fork the repo, create a branch, and submit a pull request.
 
 ---
 
